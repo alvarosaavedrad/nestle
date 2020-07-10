@@ -3,3 +3,12 @@
 ## 🔖 Description
 
 JavaScript and CSS code for Nestlé projects.
+
+## Happy Code
+
+Made with JavaScript and a lot of ❤️
+
+## This README.md file looks pretty because of
+
+[GitHub Markdown](https://guides.github.com/features/mastering-markdown/) \
+[Emojipedia](https://emojipedia.org/)
