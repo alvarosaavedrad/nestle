@@ -1,0 +1,43 @@
+.home-floating-item-1 {
+  animation: float-1 32s ease-in-out infinite 4s;
+}
+
+.home-floating-item-2 {
+  animation: float-2 48s ease-in-out infinite;
+}
+
+@keyframes float-1 {
+  0% {
+    transform: translate(0, 0) rotate(0);
+  }
+  20% {
+    transform: translate(-48px, 24px);
+  }
+  50% {
+    transform: translateY(-4px, -2px) rotate(12deg);
+  }
+  70% {
+    transform: translate(64px, -24px);
+  }
+  100% {
+    transform: translate(0, 0) rotate(0);
+  }
+}
+
+@keyframes float-2 {
+  0% {
+    transform: translate(0, 0) rotate(0);
+  }
+  20% {
+    transform: translate(32px, 16px);
+  }
+  50% {
+    transform: translateY(-4px, -2px) rotate(25deg);
+  }
+  70% {
+    transform: translate(-48px, -24px);
+  }
+  100% {
+    transform: translate(0, 0) rotate(0);
+  }
+}

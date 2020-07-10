@@ -1,0 +1,64 @@
+.naturnes-header {
+  width: 100%;
+}
+
+.naturnes-header-menu {
+  text-align: right;
+}
+
+.naturnes-header-menu button.navbar-toggler {
+  background-color: #4d7a36 !important;
+  padding: 8px 12px;
+}
+
+.naturnes-header-menu ul li {
+  display: inline-block;
+}
+
+.naturnes-menu nav {
+  margin-bottom: 0;
+}
+
+.naturnes-slider-bottom-img {
+  transform: translateY(-95%);
+}
+
+.naturnes-home-faq-top-img {
+  position: absolute !important;
+  top: 0;
+  width: 100%;
+}
+
+.naturnes-home-faq-top-img img {
+  vertical-align: top !important;
+}
+
+.naturnes-home-faq-bottom-img {
+  bottom: 0;
+  position: absolute !important;
+  width: 100%;
+}
+
+.naturnes-home-faq-bottom-img img {
+  vertical-align: bottom !important;
+}
+
+@media screen and (max-width: 767px) {
+  .naturnes-menu .navbar-collapse.collapse {
+    background-color: white;
+    box-shadow: 0px 8px 32px rgba(0, 0, 0, 0.35);
+    box-sizing: content-box;
+    margin-top: 20px;
+    padding: 16px;
+    position: absolute;
+    right: 6%;
+    text-align: left;
+    transform-origin: right;
+    width: 80vw;
+  }
+
+  .naturnes-menu .navbar-collapse.collapse li {
+    display: block;
+    padding-bottom: 16px;
+  }
+}

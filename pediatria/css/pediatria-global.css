@@ -1,0 +1,180 @@
+/** General **/
+:focus {
+  outline: none;
+}
+
+a {
+  outline: none;
+}
+
+a:focus {
+  outline: none;
+}
+
+/*** Pre-header ***/
+.user-logged-in .pre-header .navbar {
+  min-height: auto !important;
+  margin-bottom: 0 !important;
+}
+
+.user-logged-in ul.menu--account li.last {
+  display: none;
+}
+
+.pre-header .navbar {
+  border: 0 !important;
+  min-height: auto !important;
+  margin: 0 !important;
+}
+
+.pre-header .navbar-desktop-toggler {
+  display: none !important;
+}
+
+.pre-header .container-fluid {
+  padding: 0 !important;
+}
+
+.pre-header .container,
+.pre-header #navbarDesktop {
+  padding: 0;
+}
+
+.pre-header .wrapper-name-user .views-row .views-field {
+  margin-bottom: 15px;
+}
+
+.pre-header .wrapper-name-user .views-row .views-field .field-content {
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 500;
+  font-family: "Karla", Sans-serif;
+  text-align: center;
+}
+
+.pre-header .wrapper-menu-account .menu--account.navbar-right {
+  margin: 0 !important;
+}
+
+.pre-header .wrapper-menu-account .menu--account li a {
+  letter-spacing: -0.7px;
+  background-color: #7db5ba;
+  border-radius: 40px 40px 40px 40px;
+  padding: 4px 20px 4px 20px;
+  line-height: 15px;
+}
+
+.pre-header .wrapper-menu-account .menu--account li:not(.first) a {
+  margin-left: 4px;
+}
+
+.pre-header .wrapper-menu-account .menu--account li a:hover {
+  background-color: #7db5ba;
+}
+
+.pre-header .wrapper-menu-account .navbar-toggler {
+  display: none;
+}
+
+.pre-header .wrapper-menu-account #navbarDesktop {
+  box-shadow: none !important;
+}
+
+.pre-header .wrapper-menu-account #navbarDesktop.collapse {
+  display: block !important;
+  margin: 0 !important;
+}
+
+.pre-header .wrapper-menu-account #navbarDesktop .menu--account {
+  align-items: center;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+
+@media (min-width: 768px) {
+  .pre-header .wrapper-name-user .views-row .views-field {
+    margin-bottom: 0;
+  }
+
+  .pre-header .wrapper-name-user .views-row .views-field .field-content {
+    text-align: right;
+  }
+}
+
+@media (min-width: 1025px) {
+  .pre-header .wrapper-menu-account #navbarDesktop .menu--account {
+    justify-content: flex-end;
+  }
+}
+
+/** Header **/
+header .container-fluid {
+  padding: 0 !important;
+}
+
+header .navbar {
+  min-height: auto;
+  margin-bottom: 0;
+}
+
+header .elementor-widget-dsu-c_image a {
+  display: contents !important;
+}
+
+/* Menu */
+@media (max-width: 767px) {
+  header .navbar-toggler {
+    background-color: transparent;
+  }
+
+  header .navbar-toggler span {
+    color: #0186d5;
+  }
+
+  header > div > div > div:first-of-type {
+    min-height: 48px;
+  }
+
+  header > div > div > div:first-of-type > .elementor-element-populated {
+    position: absolute;
+  }
+}
+
+#navbarResponsive .dropdown-menu {
+  background-color: white;
+  border: none;
+  border-radius: 0;
+  box-shadow: none;
+  padding: 0;
+  margin: 0;
+}
+
+#navbarResponsive .dropdown-menu li {
+  background-color: #e8f9ff;
+  padding: 4px 8px;
+}
+
+#navbarResponsive .dropdown-menu li:not(:last-child) {
+  margin-bottom: 2px;
+}
+
+/** Blue block **/
+.wrapper-blue-block .title-link {
+  display: block;
+  pointer-events: none;
+}
+
+/** Tabs **/
+.wrapper-products-tabs .elementor-accordion-item .elementor-tab-content {
+  border-top: 0;
+  color: #657188;
+  font-family: "Nunito", Sans-serif;
+  font-weight: 600;
+  line-height: 1;
+}
+
+/** Ali alianzas block **/
+.wrapper-part2-alianzas a {
+  display: contents !important;
+}

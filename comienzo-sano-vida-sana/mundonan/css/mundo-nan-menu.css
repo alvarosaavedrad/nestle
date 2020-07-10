@@ -1,0 +1,36 @@
+.mundo-nan-header {
+  width: 100%;
+}
+
+.mundo-nan-header-menu {
+  text-align: right;
+}
+
+.mundo-nan-header-menu button.navbar-toggler {
+  background-color: #f2d99e;
+}
+
+.mundo-nan-menu ul li {
+  display: inline-block;
+}
+
+.mundo-nan-menu ul li a {
+  border-radius: 12px;
+}
+
+@media screen and (max-width: 767px) {
+  .navbar-collapse ul {
+    background-color: white;
+    border-radius: 8px;
+    left: 50%;
+    padding: 16px;
+    position: absolute;
+    top: 65%;
+    transform: translateX(-50%);
+    width: 60vw;
+  }
+
+  .navbar-collapse ul li {
+    display: block;
+  }
+}

@@ -1,0 +1,15 @@
+@media (min-width: 1025px) {
+  .wrapper-nestle-nutricion .elementor-text-editor {
+    max-width: 87%;
+    margin: 0 auto;
+  }
+
+  .wrapper-manual-lactancia .elementor-text-editor {
+    max-width: 65%;
+    margin: 0 auto;
+  }
+}
+
+ul {
+  list-style-position: inside;
+}

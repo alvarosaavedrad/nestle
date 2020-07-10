@@ -1,0 +1,73 @@
+.naturnes-header {
+  width: 100%;
+}
+
+.naturnes-header-menu {
+  text-align: right;
+}
+
+.naturnes-header-menu button.navbar-toggler {
+  background-color: #4d7a36 !important;
+  padding: 8px 12px;
+}
+
+.naturnes-header-menu ul li {
+  display: inline-block;
+}
+
+.naturnes-menu nav {
+  margin-bottom: 0;
+}
+
+.naturnes-atributos .elementor-tab-title {
+  margin-right: 14px;
+  padding: 25px 30px !important;
+}
+
+.naturnes-atributos .elementor-tabs-content-wrapper {
+  background-color: #d6e8eb;
+  background-image: url("/sites/default/files/textura-atributo-bg.png");
+  border-radius: 16px;
+}
+
+@media screen and (max-width: 767px) {
+  .naturnes-menu .navbar-collapse.collapse {
+    background-color: white;
+    box-shadow: 0px 8px 32px rgba(0, 0, 0, 0.35);
+    box-sizing: content-box;
+    margin-top: 20px;
+    padding: 16px;
+    position: absolute;
+    right: 6%;
+    text-align: left;
+    transform-origin: right;
+    width: 80vw;
+  }
+
+  .naturnes-menu .navbar-collapse.collapse li {
+    display: block;
+    padding-bottom: 16px;
+  }
+
+  .naturnes-atributos .elementor-tabs-content-wrapper {
+    padding: 16px 0;
+  }
+
+  .naturnes-atributos .elementor-tab-title:not(:first-of-type) {
+    padding: 16px 24px 4px 24px !important;
+  }
+
+  .naturnes-atributos .elementor-tab-title:first-of-type {
+    padding: 4px 24px !important;
+  }
+
+  .naturnes-atributos .elementor-tab-content {
+    padding: 8px 32px !important;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  #elementor-tab-content-1165 img {
+    width: 50%;
+  }
+}

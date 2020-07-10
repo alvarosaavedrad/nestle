@@ -1,0 +1,67 @@
+.naturnes-header {
+  width: 100%;
+}
+
+.naturnes-header-menu {
+  text-align: right;
+}
+
+.naturnes-header-menu button.navbar-toggler {
+  background-color: #4d7a36 !important;
+  padding: 8px 12px;
+}
+
+.naturnes-header-menu ul li {
+  display: inline-block;
+}
+
+.naturnes-menu nav {
+  margin-bottom: 0;
+}
+
+@media screen and (max-width: 767px) {
+  .naturnes-menu .navbar-collapse.collapse {
+    background-color: white;
+    box-shadow: 0px 8px 32px rgba(0, 0, 0, 0.35);
+    box-sizing: content-box;
+    margin-top: 20px;
+    padding: 16px;
+    position: absolute;
+    right: 6%;
+    text-align: left;
+    transform-origin: right;
+    width: 80vw;
+  }
+
+  .naturnes-menu .navbar-collapse.collapse li {
+    display: block;
+    padding-bottom: 16px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .form-naturnes-fabrica form .form-wrapper {
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .form-naturnes-fabrica form .form-wrapper .form-item:nth-of-type(1),
+  .form-naturnes-fabrica form .form-wrapper .form-item:nth-of-type(2) {
+    width: 24%;
+  }
+
+  .form-naturnes-fabrica form .form-wrapper .form-item:nth-of-type(3),
+  .form-naturnes-fabrica form .form-wrapper .form-item:nth-of-type(4) {
+    width: 14%;
+  }
+
+  .form-naturnes-fabrica form .form-wrapper .form-item.form-group,
+  .form-naturnes-fabrica form .form-wrapper .form-item.form-group > button {
+    margin: 0;
+  }
+
+  .form-naturnes-fabrica form .form-wrapper .form-item > input {
+    width: 100% !important;
+  }
+}

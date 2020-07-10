@@ -1,0 +1,134 @@
+.nestum-header {
+  width: 100%;
+}
+
+.nestum-header-menu button.navbar-toggler {
+  background: none;
+}
+
+.nestum-header-menu {
+  text-align: right;
+}
+
+.nestum-header-menu ul li {
+  display: inline-block;
+}
+
+.nestum-active-underline {
+  bottom: -5px;
+  left: 50%;
+  position: absolute;
+  transform: translateX(-50%);
+  width: 50px;
+}
+
+.img-cuchara-left-top {
+  position: absolute !important;
+}
+
+.img-trigo-left-bottom {
+  position: absolute !important;
+}
+
+.img-avena-right-top {
+  position: absolute !important;
+}
+
+@media screen and (max-width: 767px) {
+  .nestum-menu .navbar-collapse.collapse {
+    background-color: #f4a352;
+    -webkit-box-shadow: 0px 8px 32px 0px rgba(0, 0, 0, 0.35);
+    -moz-box-shadow: 0px 8px 32px 0px rgba(0, 0, 0, 0.35);
+    box-shadow: 0px 8px 32px 0px rgba(0, 0, 0, 0.35);
+    box-sizing: content-box;
+    margin-top: 32px;
+    padding: 16px;
+    position: absolute;
+    right: 6%;
+    text-align: center;
+    transform-origin: right;
+    width: 80vw;
+  }
+
+  .nestum-menu .navbar-collapse.collapse li {
+    display: block;
+    padding-bottom: 16px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .nestum-active-underline {
+    bottom: 40px;
+    left: 60%;
+    width: 50px;
+  }
+
+  .img-cuchara-left-top {
+    left: -100px;
+  }
+
+  .img-cuchara-left-top > div {
+    width: 275px;
+  }
+
+  .img-trigo-left-bottom {
+    bottom: -256px;
+    left: -80px;
+  }
+
+  .img-trigo-left-bottom > div {
+    width: 325px;
+  }
+
+  .img-avena-right-top {
+    right: 0;
+  }
+
+  .img-avena-right-top > div {
+    width: 180px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .img-cuchara-left-top {
+    left: -150px;
+  }
+
+  .img-cuchara-left-top > div {
+    width: 350px;
+  }
+
+  .img-trigo-left-bottom {
+    bottom: -256px;
+    left: -96px;
+  }
+
+  .img-trigo-left-bottom > div {
+    width: 300px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .nestum-active-underline {
+    bottom: 12px;
+    left: 65%;
+    width: 60px;
+  }
+
+  .img-cuchara-left-top {
+    left: -128px;
+  }
+
+  .img-cuchara-left-top > div {
+    width: 400px;
+  }
+
+  .img-trigo-left-bottom {
+    bottom: -256px;
+    left: -96px;
+  }
+
+  .img-trigo-left-bottom > div {
+    width: 350px;
+  }
+}

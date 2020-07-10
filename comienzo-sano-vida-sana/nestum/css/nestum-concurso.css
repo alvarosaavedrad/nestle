@@ -1,0 +1,107 @@
+.nestum-header {
+  width: 100%;
+}
+
+.nestum-header-menu {
+  text-align: right;
+}
+
+.nestum-header-menu button.navbar-toggler {
+  background: none;
+}
+
+.nestum-header-menu ul li {
+  display: inline-block;
+}
+
+.nestum-active-underline {
+  bottom: -5px;
+  left: 50%;
+  position: absolute;
+  transform: translateX(-50%);
+  width: 50px;
+}
+
+.nestum-concurso-form fieldset .fieldset-wrapper {
+  margin-left: 25px;
+}
+
+@media screen and (max-width: 767px) {
+  .nestum-menu .navbar-collapse.collapse {
+    background-color: #f4a352;
+    -webkit-box-shadow: 0px 8px 32px 0px rgba(0, 0, 0, 0.35);
+    -moz-box-shadow: 0px 8px 32px 0px rgba(0, 0, 0, 0.35);
+    box-shadow: 0px 8px 32px 0px rgba(0, 0, 0, 0.35);
+    box-sizing: content-box;
+    margin-top: 32px;
+    padding: 16px;
+    position: absolute;
+    right: 6%;
+    text-align: center;
+    transform-origin: right;
+    width: 80vw;
+  }
+
+  .nestum-menu .navbar-collapse.collapse li {
+    display: block;
+    padding-bottom: 16px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .nestum-active-underline {
+    bottom: 40px;
+    left: 60%;
+    width: 50px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .nestum-active-underline {
+    bottom: 10px;
+    left: 65%;
+    width: 60px;
+  }
+
+  .form-nestum-concurso .form-item-nombre {
+    box-sizing: border-box;
+    float: left;
+    padding-right: 32px;
+    width: 33%;
+  }
+
+  .form-nestum-concurso .form-item-email {
+    box-sizing: border-box;
+    float: left;
+    padding-right: 32px;
+    width: 33%;
+  }
+
+  .form-nestum-concurso .form-item-direccion {
+    box-sizing: border-box;
+    float: left;
+    width: 33%;
+  }
+
+  .form-nestum-concurso .form-item-nombre-hijo {
+    box-sizing: border-box;
+    float: left;
+    padding-right: 32px;
+    width: 33%;
+  }
+
+  .form-nestum-concurso .form-item-edad-hijo {
+    box-sizing: border-box;
+    float: left;
+    margin-right: 16%;
+    width: 30%;
+  }
+
+  .form-nestum-concurso .form-type-webform-terms-of-service {
+    max-width: 285px;
+  }
+
+  .form-nestum-concurso .form-type-webform-terms-of-service label {
+    font-weight: 600;
+  }
+}

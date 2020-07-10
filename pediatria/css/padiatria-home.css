@@ -1,0 +1,71 @@
+.elementor-slick-slider ul.slick-dots li.slick-active button:before {
+  color: #0186d5 !important;
+}
+
+body:not(.elementor-editor-active) .row-more {
+  display: none;
+}
+
+body:not(.elementor-editor-active) .row-more-separator {
+  display: none;
+}
+
+.elementor-slick-slider ul.slick-dots {
+  text-align: right !important;
+  padding-right: 10% !important;
+  margin-bottom: 20px !important;
+}
+
+/*.pediatria-productos-accordion .elementor-tab-content.elementor-tab-content-opened {
+  animation: openTab 1s ease-out forwards;
+}
+
+.pediatria-productos-accordion .elementor-tab-content.elementor-tab-content-closed {
+  animation: closeTab 1s ease-out forwards;
+}*/
+
+.pediatria-productos-accordion .elementor-tab-content p {
+  color: white;
+}
+
+div.elementor-element-461a4816.elementor-widget {
+  margin-bottom: 5px;
+}
+
+@media (max-width: 767px) {
+  .elementor-editor-active
+    .elementor.elementor-edit-area-active
+    .elementor-top-section
+    > .elementor-container
+    > .elementor-row {
+    min-height: 70px;
+  }
+
+  div.elementor-1 .elementor-element.elementor-element-461a4816 .elementor-image img {
+    max-width: 95px;
+  }
+}
+
+/*@keyframes closeTab {
+  0% {
+    height: 100%;
+    padding: 15px 20px;
+  }
+
+  100% {
+    height: 0;
+    padding: 0;
+  }
+}
+
+@keyframes openTab {
+  0% {
+    height: 0;
+    padding: 0;
+  }
+
+  100% {
+    height: 100%;
+    padding: 15px 20px;
+  }
+}*/

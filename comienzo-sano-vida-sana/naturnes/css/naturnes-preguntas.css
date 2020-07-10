@@ -1,0 +1,82 @@
+.naturnes-header {
+  width: 100%;
+}
+
+.naturnes-header-menu {
+  text-align: right;
+}
+
+.naturnes-header-menu button.navbar-toggler {
+  background-color: #4d7a36 !important;
+  padding: 8px 12px;
+}
+
+.naturnes-header-menu ul li {
+  display: inline-block;
+}
+
+.naturnes-menu nav {
+  margin-bottom: 0;
+}
+
+.naturnes-section-preguntas .elementor-tabs-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.naturnes-section-preguntas .elementor-tabs-wrapper > div:nth-child(1) {
+  color: #002f82 !important;
+}
+
+.naturnes-section-preguntas .elementor-tabs-wrapper > div:nth-child(2) {
+  color: #4d7a36 !important;
+}
+
+.naturnes-section-preguntas .elementor-tabs-wrapper > div:nth-child(3) {
+  color: #a25a31 !important;
+}
+
+.naturnes-section-preguntas .elementor-tabs-wrapper > div:nth-child(4) {
+  color: #080604 !important;
+}
+
+.naturnes-section-preguntas .elementor-tabs-wrapper .elementor-tab-title,
+.naturnes-section-preguntas .elementor-tabs-content-wrapper .elementor-tab-title {
+  font-family: "Love Ya Like A Sister", Sans-serif !important;
+}
+
+@media screen and (max-width: 767px) {
+  .naturnes-menu .navbar-collapse.collapse {
+    background-color: white;
+    box-shadow: 0px 8px 32px rgba(0, 0, 0, 0.35);
+    box-sizing: content-box;
+    margin-top: 20px;
+    padding: 16px;
+    position: absolute;
+    right: 6%;
+    text-align: left;
+    transform-origin: right;
+    width: 80vw;
+  }
+
+  .naturnes-menu .navbar-collapse.collapse li {
+    display: block;
+    padding-bottom: 16px;
+  }
+
+  .naturnes-section-preguntas .elementor-tabs-content-wrapper .elementor-accordion-item .elementor-tab-title {
+    text-align: left !important;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .elementor-accordion-item .elementor-tab-content {
+    padding: 20px 32px !important;
+  }
+}
+
+@media screen and (min-width: 1100px) {
+  .naturnes-section-preguntas .elementor-tabs-wrapper > div {
+    padding: 32px 64px;
+  }
+}
