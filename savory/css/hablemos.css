@@ -1,0 +1,158 @@
+/* Full screen data display */
+.hablemos__display {
+  background-color: #188fb6;
+  bottom: 100%;
+  color: white;
+  height: 100%;
+  left: 0;
+  position: absolute;
+  transform-origin: 50% 0%;
+  width: 100%;
+}
+
+.hablemos__display-container {
+  align-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.hablemos__display-texts {
+  margin-right: 3rem;
+}
+
+.hablemos__display-texts h3 {
+  color: #ffffff;
+  display: block;
+  font-family: "Titillium Web", sans-serif;
+  font-size: 1.6rem;
+  margin: 0;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.hablemos__display-texts p {
+  border-bottom: 1px solid #fff;
+  color: #fff;
+  display: block;
+  font-family: "Titillium Web", sans-serif;
+  font-size: 5rem;
+  font-weight: 600;
+  padding: 1rem 0;
+  text-align: center;
+}
+
+.hablemos__display-close {
+  font-size: 5rem;
+}
+
+/*
+    Close icon
+*/
+.close-icon {
+  cursor: pointer;
+  height: 60px;
+  position: relative;
+  width: 60px;
+}
+.close-icon:after {
+  border-left: 12px solid #fff;
+  border-radius: 24px;
+  content: "";
+  height: 60px;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -30%) rotate(45deg);
+  top: 50%;
+}
+
+.close-icon:before {
+  border-left: 12px solid #fff;
+  border-radius: 24px;
+  content: "";
+  height: 60px;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -30%) rotate(-45deg);
+  top: 50%;
+}
+
+/*
+    Animations
+*/
+
+.hablemos__display--appears {
+  animation: appears 300ms forwards ease-out;
+}
+
+.hablemos__display--disappears {
+  animation: disappears 300ms forwards ease-out;
+}
+
+@keyframes appears {
+  0% {
+    bottom: 100%;
+    opacity: 0;
+  }
+
+  15% {
+    opacity: 0.85;
+  }
+
+  100% {
+    bottom: 0;
+    opacity: 0.95;
+  }
+}
+
+@keyframes disappears {
+  0% {
+    bottom: 0;
+    opacity: 0.95;
+  }
+
+  100% {
+    bottom: 100%;
+    opacity: 0;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .hablemos__display-texts,
+  .hablemos__display-close {
+    width: 100%;
+  }
+
+  .hablemos__display-texts {
+    margin: 0;
+  }
+
+  .hablemos__display-texts h3 {
+    font-size: 1.4rem;
+  }
+
+  .hablemos__display-texts p {
+    font-size: 4rem;
+  }
+
+  .hablemos__display-close {
+    position: relative;
+    margin-top: 2rem;
+  }
+
+  .hablemos__display-close .close-icon {
+    left: 50%;
+    position: absolute;
+    transform: translateX(-50%);
+  }
+}
+
+@media screen and (max-width: 440px) {
+  .hablemos__display-texts p {
+    font-size: 2.2rem;
+  }
+}
