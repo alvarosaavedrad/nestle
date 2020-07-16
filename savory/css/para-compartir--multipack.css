@@ -10,6 +10,10 @@
   background-image: radial-gradient(circle farthest-corner, #795c63 0%, #341d25 100%);
 }
 
+.savory__multipack--mini-frambuesa {
+  background-image: radial-gradient(circle farthest-corner, #fdced5 0%, #9a012e 46%, #2c1716 100%);
+}
+
 .savory__multipack--mini-triton {
   background-image: radial-gradient(circle farthest-corner, #225574 0%, #225574 17%, #020206 100%);
 }
@@ -32,6 +36,10 @@
 
 .savory__multipack--mini-kriko {
   background-image: radial-gradient(circle farthest-corner, #ffd4d4 3%, #fa9c9c 49%, #e61949 100%);
+}
+
+.savory__multipack--mini-lollypop {
+  background-image: radial-gradient(circle farthest-corner, #efe3d6 0%, #fe9c25 42%, #b04c02 100%);
 }
 
 .savory__multipack--chocolito {
