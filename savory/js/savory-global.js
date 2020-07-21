@@ -143,23 +143,27 @@ document.addEventListener("DOMContentLoaded", function (event) {
   const ssc = document.querySelector(".savory-search-container");
   if (!ssc) return;
 
+  const ssicon = document.querySelector(".savory-search-icon");
+  if (!ssicon) return;
+
+  const ssinput = ss.querySelector("input");
+  if (!ssinput) return;
+
+  // Relocating container
   ssc.parentElement.removeChild(ssc);
   document.body.insertAdjacentElement("beforeend", ssc);
 
   // Icon to hide menu
   const closeIcon = `
-    <div class="navbarDesktop__display-close">
+    <div class="savory-search__display-close">
       <div class="close-icon" />
     </div>
   `;
 
-  ssc.insertAdjacentHTML("afterbegin", closeIcon);
+  ss.insertAdjacentHTML("afterbegin", closeIcon);
 
-  // Adding events to buttons
-  const ssi = document.querySelector(".savory-search-icon");
-  if (!ssi) return;
-
-  ssi.addEventListener("click", () => {
+  // Event to show Search
+  ssicon.addEventListener("click", () => {
     if (Array.from(ssc.classList).includes("navbarDesktop__display--disappears")) {
       ssc.classList.remove("navbarDesktop__display--disappears");
     }
@@ -167,7 +171,8 @@ document.addEventListener("DOMContentLoaded", function (event) {
     ssc.classList.add("navbarDesktop__display--appears");
   });
 
-  const ssclose = document.querySelector(".navbarDesktop__display-close");
+  // Event to hide Search
+  const ssclose = document.querySelector(".savory-search__display-close");
   if (!ssclose) return;
 
   ssclose.addEventListener("click", () => {
@@ -176,5 +181,16 @@ document.addEventListener("DOMContentLoaded", function (event) {
     }
 
     ssc.classList.add("navbarDesktop__display--disappears");
+  });
+
+  // Setting up form input
+  ssinput.setAttribute("placeholder", "Buscar...");
+
+  ssinput.addEventListener("focus", function () {
+    ssinput.setAttribute("placeholder", "");
+  });
+
+  ssinput.addEventListener("focusout", function () {
+    ssinput.setAttribute("placeholder", "Buscar...");
   });
 })();

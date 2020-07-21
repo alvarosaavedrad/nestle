@@ -1,3 +1,11 @@
+/* Close icon */
+.close-icon {
+  cursor: pointer;
+  height: 60px;
+  position: relative;
+  width: 60px;
+}
+
 /* Top menu icon */
 .elementor-top-column .elementor-element-populated .elementor-widget-menu .elementor-menu {
   margin: 0;
@@ -20,8 +28,8 @@
   display: block !important;
   height: 100vh !important;
   left: 0;
-  position: absolute;
-  top: -100%;
+  position: fixed;
+  top: -100vh;
   transform-origin: 50% 0%;
   width: 100%;
 }
@@ -80,7 +88,7 @@
 @keyframes appears {
   0% {
     opacity: 0;
-    top: -100%;
+    top: -100vh;
   }
 
   15% {
@@ -101,25 +109,17 @@
 
   100% {
     opacity: 0;
-    top: -100%;
+    top: -100vh;
   }
 }
 
-/* Close icon */
 .navbarDesktop__display-close {
   position: absolute;
   right: 3rem;
   top: 3rem;
 }
 
-.close-icon {
-  cursor: pointer;
-  height: 60px;
-  position: relative;
-  width: 60px;
-}
-
-.close-icon:after {
+.navbarDesktop__display-close .close-icon:after {
   border-left: 12px solid #fff;
   border-radius: 24px;
   content: "";
@@ -130,7 +130,7 @@
   top: 50%;
 }
 
-.close-icon:before {
+.navbarDesktop__display-close .close-icon:before {
   border-left: 12px solid #fff;
   border-radius: 24px;
   content: "";
@@ -231,15 +231,75 @@
   display: block !important;
   height: 100vh !important;
   left: 0;
-  position: absolute !important;
-  top: -100%;
+  position: fixed !important;
+  top: -100vh;
   transform-origin: 50% 0%;
+  width: 100%;
+}
+
+.savory-search-container > .elementor-container {
+  height: 100%;
   width: 100%;
 }
 
 .savory-search {
   left: 50%;
+  position: absolute !important;
+  transform: translateX(-50%);
+}
+
+.savory-search form input {
+  background: none;
+  border: none;
+  border-bottom: 1px solid white;
+  border-radius: 0;
+  box-shadow: none;
+  color: rgba(255, 255, 255, 0.95);
+  font-family: "Titillium Web", sans-serif;
+  font-size: 3rem;
+  max-width: 256px;
+  transition: all 300ms;
+  width: 25vw !important;
+}
+
+.savory-search form input::placeholder {
+  color: rgba(255, 255, 255, 0.95);
+  font-family: "Titillium Web", sans-serif;
+  font-size: 3rem;
+  text-align: center;
+  transition: all 300ms;
+}
+
+.savory-search form input:focus {
+  border-bottom: 1px solid white;
+  box-shadow: none;
+}
+
+.savory-search form button.button.form-submit {
+  display: none;
+}
+
+.savory-search__display-close {
   position: absolute;
-  top: 50%;
-  transform: translate(-50%, -50%);
+  left: 100%;
+}
+
+.savory-search__display-close .close-icon:after {
+  border-left: 6px solid #fff;
+  border-radius: 24px;
+  content: "";
+  height: 32px;
+  left: 50%;
+  position: absolute;
+  transform: translateX(-50%) rotate(45deg);
+}
+
+.savory-search__display-close .close-icon:before {
+  border-left: 6px solid #fff;
+  border-radius: 24px;
+  content: "";
+  height: 32px;
+  left: 50%;
+  position: absolute;
+  transform: translateX(-50%) rotate(-45deg);
 }

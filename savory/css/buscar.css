@@ -1,0 +1,18 @@
+.savory-search-results .view-content .item-list ul {
+  margin: 0;
+  padding: 0;
+}
+
+.savory-search-results .view-content .item-list ul li {
+  padding: 2rem 15vw;
+}
+
+.savory-search-results .view-content .item-list ul li:nth-child(even) {
+  background-color: #fff;
+  color: #0a89cb;
+}
+
+.savory-search-results .view-content .item-list ul li:nth-child(odd) {
+  background-color: #99dfff;
+  color: #fff;
+}
