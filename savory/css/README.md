@@ -8,7 +8,7 @@ Instructions to add content and functionalities to the website.
 
 ### Adding gradients to icecreams backgrounds
 
-A CSS class is required in wrapper element like this: `savory__<icecream-group>--<icecream-name>`. For instance, for _Nuestros Helados > Sólo para mí > Mega > Maracuyá_ it should be `savory__mega--maracuya`. Then, from PRO website, find the right CSS gradient and add it to correct file. For this example, it should be added to `nestle/savory/css/solo-para-mi--mega.css`.
+A CSS class is required in **_icecream wrapper element_** like this: `savory__<icecream-group>--<icecream-name>`. For instance, for _Nuestros Helados > Sólo para mí > Mega > Maracuyá_ it should be `savory__mega--maracuya`. Then, from PRO website, find the right CSS gradient and add it to correct file. For this example, it should be added to `nestle/savory/css/solo-para-mi--mega.css`.
 
 ```
 /* Background example */
