@@ -1,0 +1,89 @@
+.elementor-column .elementor-column-wrap.elementor-element-populated .elementor-widget-wrap .elementor-widget {
+  padding: 1.5rem;
+}
+
+.elementor-column .elementor-column-wrap .elementor-widget-wrap .elementor-element .elementor-image-content-wrapper {
+  line-height: 0.5;
+  text-align: right;
+}
+
+.elementor-column .elementor-column-wrap .elementor-widget-wrap .elementor-element .elementor-image-content-wrapper {
+  transform-origin: 100% 100%;
+  transition: 200ms ease-out;
+}
+
+.elementor-column
+  .elementor-column-wrap
+  .elementor-widget-wrap
+  .elementor-element
+  .elementor-image-content-wrapper::after {
+  border-bottom: 2px solid white;
+  color: transparent;
+  content: "hello, world!";
+  font-size: 0.35rem;
+  transition: 200ms ease-out;
+}
+
+.elementor-column
+  .elementor-column-wrap
+  .elementor-widget-wrap
+  .elementor-element
+  .elementor-widget-container:hover
+  .elementor-image-content-wrapper {
+  transform: scale(1.05);
+}
+
+.elementor-column
+  .elementor-column-wrap
+  .elementor-widget-wrap
+  .elementor-element
+  .elementor-widget-container:hover
+  .elementor-image-content-wrapper::after {
+  animation: doubleWidth 100ms ease-out forwards;
+}
+
+@keyframes doubleWidth {
+  0% {
+    content: "hello, world!";
+  }
+
+  10% {
+    content: "hello, world! ";
+  }
+
+  20% {
+    content: "hello, world! h";
+  }
+
+  30% {
+    content: "hello, world! he";
+  }
+
+  40% {
+    content: "hello, world! hel";
+  }
+
+  50% {
+    content: "hello, world! hell";
+  }
+
+  60% {
+    content: "hello, world! hello";
+  }
+
+  70% {
+    content: "hello, world! hello,";
+  }
+
+  80% {
+    content: "hello, world! hello, w";
+  }
+
+  90% {
+    content: "hello, world! hello, wo";
+  }
+
+  100% {
+    content: "hello, world! hello, world!";
+  }
+}

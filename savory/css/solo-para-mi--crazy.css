@@ -1,0 +1,15 @@
+.savory__crazy--chirimoya-alegre {
+  background-image: radial-gradient(circle farthest-corner, #f6b473 0%, #e16012 100%);
+}
+
+.savory__crazy--frambuesa {
+  background-image: radial-gradient(circle farthest-corner, #ffdde5 0%, #e36884 55%, #930224 100%);
+}
+
+.savory__crazy--sangurucho {
+  background-image: radial-gradient(circle farthest-corner, #c444ad 0%, #70077c 63%, #390f4f 100%);
+}
+
+.savory__crazy--flocos {
+  background-image: radial-gradient(circle farthest-corner, #f9efa9 0%, #f4c06e 33%, #4d2208 75%, #2a0f01 100%);
+}

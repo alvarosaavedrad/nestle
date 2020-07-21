@@ -1,0 +1,23 @@
+.savory__clasicos--lolly-pop {
+  background-image: radial-gradient(circle farthest-corner, #fee392 0%, #f8b67a 30%, #e76903 83%, #c34900 100%);
+}
+
+.savory__clasicos--holiday {
+  background-image: radial-gradient(circle farthest-corner, #ffba25 0%, #c56415 77%, #bd631a 100%);
+}
+
+.savory__clasicos--egocentrico {
+  background-image: radial-gradient(circle farthest-corner, #ffdd18 0%, #ae4100 62%, #642200 100%);
+}
+
+.savory__clasicos--cola-de-tigre {
+  background-image: radial-gradient(circle farthest-corner, #fac41f 16%, #522b26 73%, #43201b 100%);
+}
+
+.savory__clasicos--chocolito {
+  background-image: radial-gradient(circle farthest-corner, #ffffe6 0%, #5c3316 72%, #321b0a 100%);
+}
+
+.savory__clasicos--crocanty {
+  background-image: radial-gradient(circle farthest-corner, #fef379 18%, #f63035 63%, #761c0a 100%);
+}
