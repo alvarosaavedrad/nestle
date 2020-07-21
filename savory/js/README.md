@@ -4,6 +4,24 @@
 
 Instructions to add content and functionalities to the website.
 
+### Hablemos
+
+Code to show company contact data.
+
+### Home
+
+Code to animate the logo using spritesheets.
+
+### Nuestros Helados
+
+Parallax effect for background in both groups.
+
+### Savory Global
+
+- Menu: Code to show animated full screen menu.
+- Shops bars: Code to join shops bars with ice-creams sections.
+- Search: Code to to show search form.
+
 ## Happy Code
 
 Made with JavaScript and a lot of ❤️
