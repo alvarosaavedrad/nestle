@@ -1,0 +1,39 @@
+.savory__la-cremeria--brownie {
+  background-image: radial-gradient(circle farthest-corner, #c7e8fd 0%, #5fbcf9 41%, #034186 100%);
+}
+
+.savory__la-cremeria--brownie-frambuesa {
+  background-image: radial-gradient(circle farthest-corner, #eaa494 0%, #810524 100%);
+}
+
+.savory__la-cremeria--cheescake-frambuesa {
+  background-image: radial-gradient(circle farthest-corner, #ff9c9c 0%, #771618 100%);
+}
+
+.savory__la-cremeria--chocolate-frambuesa {
+  background-image: radial-gradient(circle farthest-corner, #ffcfcc 0%, #bd816c 45%, #640226 100%);
+}
+
+.savory__la-cremeria--dulce-de-frambuesa {
+  background-image: radial-gradient(circle farthest-corner, #fec5d2 0%, #f04167 55%, #97081e 100%);
+}
+
+.savory__la-cremeria--lucuma-manjar {
+  background-image: radial-gradient(circle farthest-corner, #efd693 0%, #646a32 100%);
+}
+
+.savory__la-cremeria--maracuya {
+  background-image: radial-gradient(circle farthest-corner, #c262ba 0%, #c262ba 18%, #661a5f 100%);
+}
+
+.savory__la-cremeria--papayas {
+  background-image: radial-gradient(circle farthest-corner, #fffcfb 8%, #f7cb62 59%, #e97943 100%);
+}
+
+.savory__la-cremeria--platano-manjar {
+  background-image: radial-gradient(circle farthest-corner, #efe3d6 8%, #ff9d47 68%, #a63d28 100%);
+}
+
+.savory__la-cremeria--tres-leches {
+  background-image: radial-gradient(circle farthest-corner, #ffe8c2 19%, #90451a 100%);
+}

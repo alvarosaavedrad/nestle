@@ -4,7 +4,7 @@
 
 Instructions to add content and functionalities to the website.
 
-> ⚠️ Some how-tos here may be complementary. Mind that some CSS styles must live together.
+> ⚠️ Mind that some CSS styles must live together. Please, don't remove exisiting CSS classes in Elementor items.
 
 ### Adding gradients to ice-creams backgrounds
 
@@ -40,7 +40,7 @@ btn_para-compartir_<ice-cream-group>--<ice-cream-name>
 shops_para-compartir_<ice-cream-group>--<ice-cream-name>
 ```
 
-JavaScript injected in `nestle/savory/js/savory-global.js` should do the job to make it works. The code is under _Shop bars_ comment.
+JavaScript code under _Shops bars_ comment in `nestle/savory/js/savory-global.js` should do the job to make it works.
 
 ## Happy Code
 

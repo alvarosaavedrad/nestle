@@ -1,0 +1,11 @@
+.savory__sahne-nuss--bombom {
+  background-image: radial-gradient(circle farthest-corner, #d09e30 0%, #a05326 49%, #34140d 100%);
+}
+
+.savory__sahne-nuss--postre {
+  background-image: radial-gradient(circle farthest-corner, #ebc54f 9%, #90512d 47%, #331804 100%);
+}
+
+.savory__sahne-nuss--pote {
+  background-image: radial-gradient(circle farthest-corner, #ebc54f 0%, #98642f 44%, #441d00 100%);
+}

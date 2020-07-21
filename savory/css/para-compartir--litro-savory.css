@@ -1,0 +1,51 @@
+.savory__litro-savory--brick {
+  background-image: radial-gradient(circle farthest-corner, #c7e8fd 2%, #5fbcf9 36%, #034186 75%, #003689 100%);
+}
+
+.savory__litro-savory--chirimoya-alegre {
+  background-image: radial-gradient(circle farthest-corner, #ffe1c8 0%, #fa9543 45%, #e12517 100%);
+}
+
+.savory__litro-savory--chocolate {
+  background-image: radial-gradient(circle farthest-corner, #dab494 20%, #4d1c00 81%, #2f1101 100%);
+}
+
+.savory__litro-savory--chocolate-suizo {
+  background-image: radial-gradient(circle farthest-corner, #fcdcda 0%, #af3935 54%, #331100 100%);
+}
+
+.savory__litro-savory--chocolito {
+  background-image: radial-gradient(circle farthest-corner, #fffcfb 8%, #ac754e 52%, #2e1100 100%);
+}
+
+.savory__litro-savory--crocanty {
+  background-image: radial-gradient(circle farthest-corner, #f7e278 10%, #c60217 57%, #380302 100%);
+}
+
+.savory__litro-savory--lucuma {
+  background-image: radial-gradient(circle farthest-corner, #ffe1c8 0%, #fa9543 45%, #cf7328 100%);
+}
+
+.savory__litro-savory--mora {
+  background-image: radial-gradient(circle farthest-corner, #efe1f9 0%, #983596 51%, #3c063b 100%);
+}
+
+.savory__litro-savory--pasas-al-ron {
+  background-image: radial-gradient(circle farthest-corner, #ffefe2 0%, #c1855f 35%, #42110d 100%);
+}
+
+.savory__litro-savory--pina {
+  background-image: radial-gradient(circle farthest-corner, #f8ef96 21%, #c99700 100%);
+}
+
+.savory__litro-savory--super-8 {
+  background-image: radial-gradient(circle farthest-corner, #ffe440 6%, #291106 100%);
+}
+
+.savory__litro-savory--tres-leches {
+  background-image: radial-gradient(circle farthest-corner, #f0dcb8 8%, #ac8749 37%, #6d300c 100%);
+}
+
+.savory__litro-savory--vainilla {
+  background-image: radial-gradient(circle farthest-corner, #fcedb6 0%, #e1bf52 50%, #d9931f 100%);
+}

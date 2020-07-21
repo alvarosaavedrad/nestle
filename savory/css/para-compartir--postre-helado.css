@@ -1,0 +1,19 @@
+.savory__postre-helado--almendrado {
+  background-image: radial-gradient(circle farthest-corner, #f8d791 1%, #834423 79%, #834423 100%);
+}
+
+.savory__postre-helado--charlot-frambuesa {
+  background-image: radial-gradient(circle farthest-corner, #ffe0e9 1%, #d22f61 56%, #700f0f 100%);
+}
+
+.savory__postre-helado--charlot-mora {
+  background-image: radial-gradient(circle farthest-corner, #f1f0ff 8%, #ab72d1 60%, #262465 100%);
+}
+
+.savory__postre-helado--charlot-tres-leches {
+  background-image: radial-gradient(circle farthest-corner, #efe3d6 10%, #ff9d47 57%, #a63d28 100%);
+}
+
+.savory__postre-helado--charlot-vainilla {
+  background-image: radial-gradient(circle farthest-corner, #fef1b4 11%, #f6b935 49%, #8b2020 100%);
+}
