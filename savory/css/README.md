@@ -4,7 +4,7 @@
 
 Instructions to add content and functionalities to the website.
 
-⚠️ Some how-tos here may be complementary. Mind that some CSS styles must live together.
+> ⚠️ Some how-tos here may be complementary. Mind that some CSS styles must live together.
 
 ### Adding gradients to icecreams backgrounds
 

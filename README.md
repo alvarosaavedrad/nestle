@@ -4,6 +4,8 @@
 
 JavaScript and CSS code for Nestlé projects.
 
+> ⚠️ Look for README.md files in folders for details.
+
 ## Happy Code
 
 Made with CSS, JavaScript and a lot of ❤️
