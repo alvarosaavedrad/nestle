@@ -6,7 +6,7 @@ Instructions to add content and functionalities to the website.
 
 ### Hablemos
 
-Code to show company contact data.
+Code to show animated full screen company contact data.
 
 ### Home
 
@@ -20,7 +20,7 @@ Parallax effect for background in both groups.
 
 - Menu: Code to show animated full screen menu.
 - Shops bars: Code to join shops bars with ice-creams sections.
-- Search: Code to to show search form.
+- Search: Code to to show animated full screen search form.
 
 ## Happy Code
 
