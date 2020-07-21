@@ -79,7 +79,7 @@ document.addEventListener("DOMContentLoaded", function (event) {
 });
 
 /**
- * Shop bars
+ * Shops bars
  */
 (() => {
   // Checking URL to go
