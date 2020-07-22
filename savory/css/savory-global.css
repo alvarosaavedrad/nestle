@@ -209,12 +209,12 @@
 }
 
 /* Shops bars */
-.btn_para-compartir_multipack {
+.btn_para-compartir {
   position: fixed;
   z-index: 1;
 }
 
-.shops_para-compartir_multipack {
+.shops_para-compartir {
   box-shadow: 0 8px 24px rgba(0, 0, 0, 0.25);
   left: 50%;
   padding: 4px;

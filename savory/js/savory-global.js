@@ -88,14 +88,16 @@ document.addEventListener("DOMContentLoaded", function (event) {
   }
 
   // Getting buttons and shop bars
-  const btns = Array.from(document.querySelectorAll(".btn_para-compartir_multipack"));
+  const btns = Array.from(document.querySelectorAll(".btn_para-compartir"));
   if (!btns) return;
 
-  const shops = Array.from(document.querySelectorAll(".shops_para-compartir_multipack"));
+  const shops = Array.from(document.querySelectorAll(".shops_para-compartir"));
   if (!shops) return;
 
-  const wrappers = Array.from(document.querySelectorAll(".para-compartir_multipack"));
+  const wrappers = Array.from(document.querySelectorAll(".para-compartir"));
   if (!wrappers) return;
+
+  console.log("1.-", btns, shops, wrappers);
 
   // Adding event to buttons
   btns.forEach((btn) => {
@@ -105,11 +107,13 @@ document.addEventListener("DOMContentLoaded", function (event) {
   // Relocating shop bars
   shops.forEach((shop) => {
     Array.from(shop.classList).filter((shopClass) => {
-      if (shopClass.startsWith("shops_para-compartir_multipack--")) {
+      if (shopClass.startsWith("shops_para-compartir_")) {
         wrappers.forEach((wrapper) => {
           Array.from(wrapper.classList).filter((wrapperClass) => {
-            if (wrapperClass.startsWith("para-compartir_multipack--")) {
+            if (wrapperClass.startsWith("para-compartir_")) {
               if (shopClass.indexOf(wrapperClass) !== -1) {
+                console.log("2.-", shopClass, wrapperClass);
+
                 shop.parentElement.removeChild(shop);
                 wrapper.insertAdjacentElement("beforeend", shop);
               }
@@ -125,7 +129,7 @@ document.addEventListener("DOMContentLoaded", function (event) {
   // Showing and hiding items on click
   function shopIconOnClick(e) {
     const actual = Array.from(e.currentTarget.classList).filter((className) =>
-      className.startsWith("btn_para-compartir_multipack--")
+      className.startsWith("btn_para-compartir_")
     );
 
     const shop = document.querySelector(`.shops_${actual[0].split("btn_")[1]}`);
