@@ -1,3 +1,4 @@
+/* Floating items */
 .home-floating-item-1 {
   animation: float-1 32s ease-in-out infinite 4s;
 }
@@ -40,4 +41,16 @@
   100% {
     transform: translate(0, 0) rotate(0);
   }
+}
+
+/* Canvas */
+@media screen and (max-width: 767px) {
+  .savory__home-canvas-container canvas {
+    bottom: -96px;
+  }
+}
+
+/* Slider */
+.elementor-1 .elementor-element.elementor-element-951cc82 .elementor-slide img {
+  max-width: 300px;
 }

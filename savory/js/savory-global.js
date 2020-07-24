@@ -79,6 +79,19 @@ document.addEventListener("DOMContentLoaded", function (event) {
 });
 
 /**
+ * Footer | Social icons
+ */
+(() => {
+  const socialContainer = document.querySelector(".elementor-social-icons-wrapper");
+  if (!socialContainer) return;
+
+  const links = Array.from(socialContainer.querySelectorAll("a.elementor-social-icon"));
+  if (links.length === 0) return;
+
+  links.forEach((link) => link.setAttribute("target", "_blank"));
+})();
+
+/**
  * Shops bars
  */
 (() => {
@@ -197,4 +210,13 @@ document.addEventListener("DOMContentLoaded", function (event) {
   ssinput.addEventListener("focusout", function () {
     ssinput.setAttribute("placeholder", "Buscar...");
   });
+})();
+
+/**
+ * Remove class to show bg video on mobile devices.
+ */
+(() => {
+  if (document.querySelector(".elementor-background-video-container")) {
+    document.querySelector(".elementor-background-video-container").classList.remove("elementor-hidden-phone");
+  }
 })();

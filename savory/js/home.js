@@ -2051,6 +2051,7 @@
 
   // Container
   const col = document.querySelector(".savory__home-canvas-container .elementor-widget-wrap");
+  if (!col) return;
 
   // Logo
   let boolLogo = false;

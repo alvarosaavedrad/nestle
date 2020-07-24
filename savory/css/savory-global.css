@@ -3,7 +3,7 @@
   cursor: pointer;
   height: 60px;
   position: relative;
-  width: 60px;
+  width: 128px;
 }
 
 /* Top menu icon */
@@ -68,6 +68,7 @@
   color: white;
   font-family: "Titillium Web", sans-serif;
   font-weight: 600;
+  padding: 0;
   text-transform: uppercase;
   transition: all 300ms;
 }
@@ -120,10 +121,10 @@
 }
 
 .navbarDesktop__display-close .close-icon:after {
-  border-left: 12px solid #fff;
-  border-radius: 24px;
+  border-left: 4px solid #fff;
+  border-radius: 8px;
   content: "";
-  height: 60px;
+  height: 24px;
   left: 50%;
   position: absolute;
   transform: translate(-50%, -50%) rotate(45deg);
@@ -131,14 +132,30 @@
 }
 
 .navbarDesktop__display-close .close-icon:before {
-  border-left: 12px solid #fff;
-  border-radius: 24px;
+  border-left: 4px solid #fff;
+  border-radius: 8px;
   content: "";
-  height: 60px;
+  height: 24px;
   left: 50%;
   position: absolute;
   transform: translate(-50%, -50%) rotate(-45deg);
   top: 50%;
+}
+
+@media screen and (max-width: 767px) {
+  #navbarDesktop .menu--main {
+    left: 54%;
+    top: 40%;
+  }
+
+  #navbarDesktop .menu--main li {
+    font-size: 1.6rem;
+  }
+
+  .navbarDesktop__display-close {
+    right: 0;
+    top: 2rem;
+  }
 }
 
 /* Icon to open shops */
@@ -193,19 +210,25 @@
   justify-content: center;
   left: 50%;
   position: absolute;
-  top: 65%;
+  top: 60%;
   transform: translate(-50%, -50%);
   width: 100%;
 }
 
 .social-media-icon {
-  margin: 0 0.5rem;
+  margin: 0;
   width: 64px;
 }
 
 .social-media-icon img {
   height: auto;
   width: 100%;
+}
+
+@media screen and (max-width: 767px) {
+  .navbarDesktop__display-social-media {
+    top: 66%;
+  }
 }
 
 /* Shops bars */
@@ -217,11 +240,12 @@
 .shops_para-compartir {
   box-shadow: 0 8px 24px rgba(0, 0, 0, 0.25);
   left: 50%;
+  min-height: 72px;
   padding: 4px;
   position: absolute !important;
   top: 50%;
   transform: translate(-50%, 50%);
-  width: 60vw;
+  width: 50vw;
   z-index: 1;
 }
 
@@ -302,4 +326,14 @@
   left: 50%;
   position: absolute;
   transform: translateX(-50%) rotate(-45deg);
+}
+
+@media screen and (max-width: 767px) {
+  .savory-search form input {
+    font-size: 2rem;
+  }
+
+  .savory-search form input::placeholder {
+    font-size: 2rem;
+  }
 }

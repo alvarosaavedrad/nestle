@@ -3,9 +3,8 @@
     url(/sites/default/files/productos-solo-para-mi-naranjas-2.png),
     url(/sites/default/files/productos-solo-para-mi-naranjas-3.png),
     url(/sites/default/files/productos-solo-para-mi-naranjas-4.png);
-  background-repeat: no-repeat;
-  background-position: 50% 50%;
   background-position: center;
+  background-repeat: no-repeat;
 }
 
 .elementor-widget-wrap .savory__para-compartir-parallax {
@@ -14,15 +13,21 @@
     url(/sites/default/files/productos-para-compartir-elementos-12.png),
     url(/sites/default/files/productos-para-compartir-elementos-13.png),
     url(/sites/default/files/productos-para-compartir-elementos-14.png);
-  background-repeat: no-repeat;
-  background-position: 50% 50%;
   background-position: center;
+  background-repeat: no-repeat;
 }
 
 @media screen and (max-width: 767px) {
   .savory__solo-para-mi-parallax .elementor-image img,
   .savory__para-compartir-parallax .elementor-image img {
     padding: 8rem 0;
+  }
+}
+
+@media screen and (max-width: 1199px) {
+  .elementor-widget-wrap .savory__solo-para-mi-parallax,
+  .elementor-widget-wrap .savory__para-compartir-parallax {
+    background-size: cover;
   }
 }
 
@@ -33,34 +38,11 @@
   }
 
   .elementor-widget-wrap .savory__solo-para-mi-parallax {
-    background-image: url(/sites/default/files/productos-solo-para-mi-naranjas-1.png),
-      url(/sites/default/files/productos-solo-para-mi-naranjas-2.png),
-      url(/sites/default/files/productos-solo-para-mi-naranjas-3.png),
-      url(/sites/default/files/productos-solo-para-mi-naranjas-4.png);
-    background-repeat: no-repeat;
-    background-position: 50% 50%;
-    background-position: center;
-
-    /*left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);*/
     width: 100%;
     height: 100%;
   }
 
   .elementor-widget-wrap .savory__para-compartir-parallax {
-    background-image: url(/sites/default/files/productos-para-compartir-elementos-10.png),
-      url(/sites/default/files/productos-para-compartir-elementos-11.png),
-      url(/sites/default/files/productos-para-compartir-elementos-12.png),
-      url(/sites/default/files/productos-para-compartir-elementos-13.png),
-      url(/sites/default/files/productos-para-compartir-elementos-14.png);
-    background-repeat: no-repeat;
-    background-position: 50% 50%;
-    background-position: center;
-
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
     width: 100%;
     height: 100%;
   }

@@ -21,6 +21,32 @@
   transform: translate(-50%, -50%);
 }
 
+.hablemos__display-close .close-icon {
+  width: 64px;
+}
+
+.hablemos__display-close .close-icon:after {
+  border-left: 8px solid #fff;
+  border-radius: 8px;
+  content: "";
+  height: 48px;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -20%) rotate(45deg);
+  top: 50%;
+}
+
+.hablemos__display-close .close-icon:before {
+  border-left: 8px solid #fff;
+  border-radius: 8px;
+  content: "";
+  height: 48px;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -20%) rotate(-45deg);
+  top: 50%;
+}
+
 .hablemos__display-texts {
   margin-right: 3rem;
 }
