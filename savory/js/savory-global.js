@@ -2,7 +2,7 @@
  * Ice-cream loader
  */
 (() => {
-  if (window.location.href.indexOf("/admin/") !== -1) {
+  if (window.location.href.indexOf("/admin/") !== -1 || window.location.href.indexOf("/user/") !== -1) {
     return;
   }
 
